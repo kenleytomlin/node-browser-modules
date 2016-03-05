@@ -1,5 +1,5 @@
 exports.emptyShims = [
-  'child_process', 'cluster', 'dgram', 'dns', 'fs', 'net', 'readline', 'repl', 'tls', 'tty'
+  'child_process', 'cluster', 'dgram', 'dns', 'net', 'readline', 'repl', 'tls', 'tty'
 ];
 
 exports.fileShims = {
