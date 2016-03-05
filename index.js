@@ -23,6 +23,8 @@ exports.fileShims = {
   url:                  require.resolve('url/'),
   util:                 require.resolve('util/'),
   vm:                   require.resolve('vm-browserify'),
+  fs:                   require.resolve('fs-browserify'),
+  zlib:                 require.resolve('browserify-zlib'),
 
   _stream_duplex:       require.resolve('readable-stream/duplex'),
   _stream_passthrough:  require.resolve('readable-stream/passthrough'),
